@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background: #ddd;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: bignoodletitling, sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: bignoodletitling, sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.banner-area {
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(/media/run.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-area h2 {
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.content-area {
+    width: 100%;
+    position: relative;
+    top: 600px;
+    background: #ddd;
+    height: 300px;
+}
+
+.content-area h2 {
+    font-family: bignoodletitling, sans-serif;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.content-area p {
+    padding: 2% 0;
+    font-family: merienda;
+    line-height: 30px;
+}
+
+.route-maps {
+    position: relative;
+    top: 600px;
+    height: 450px;
+    background: #fff;
+}
+
+.route-maps h2 {
+    font-family: bignoodletitling, sans-serif;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.map-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}
+
+
+.map img {
+    width: 200px;
+    height: 200px;
+}
+
+.map h3{
+    padding: 4% 0;
+}
+
+.social-media {
+    position: relative;
+    top: 600px;
+    height: 700px;
+    background: #ddd;
+}
+
+.social-media h2 {
+    font-family: bignoodletitling, sans-serif;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}
+
+.instagram {
+    height: 500px;
+    overflow: scroll;
+}
